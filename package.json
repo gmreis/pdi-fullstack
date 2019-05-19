@@ -1,0 +1,25 @@
+{
+  "name": "pdi-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "mongod --fork --logpath /home/node/log.log",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmreis/pdi-fullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmreis/pdi-fullstack/issues"
+  },
+  "homepage": "https://github.com/gmreis/pdi-fullstack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.9"
+  }
+}
